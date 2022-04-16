@@ -1,0 +1,30 @@
+{
+  "name": "visualization-study",
+  "version": "1.0.0",
+  "description": "",
+  "source": "public/index.html",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "apexcharts": "^3.35.0",
+    "axios": "^0.26.1",
+    "react": "^17.0.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^17.0.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@types/styled-components": "^5.1.25",
+    "parcel": "^2.4.1"
+  },
+  "scripts": {
+    "start": "parcel -p 3000 --open",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "znehraks",
+  "license": "ISC"
+}

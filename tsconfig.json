@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "strict": true,
+      "target": "es5",
+      "noImplicitAny": false
+    }
+  }
